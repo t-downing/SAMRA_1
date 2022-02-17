@@ -16,7 +16,7 @@ def update_element(map_data: dict, label: str, field: str, value):
 
     if field not in [ex_field["name"] for ex_field in map_data["attributes"]]:
         print("field not valid, map will not update")
-        return map_data
+        # return map_data
     else:
         print("field valid")
     # find element
