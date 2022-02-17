@@ -40,7 +40,7 @@ def save_map(map_data, path):
 if __name__ == "__main__":
     load_path = "kumu-tristandowning-samra-1_2.json"
     map_data = read_downloaded_json(load_path)
-    map_data = update_element(map_data, "Element-1", "kumu-created-field-1", "value-1")
+    map_data = update_element(map_data, "Element-1", "kumu-created-field-1", "value-1-2")
     map_data = update_element(map_data, "Element-2", "kumu-created-field-1", "value-2")
     map_data = update_element(map_data, "Element-2", "label", "Element-2-2")
     save_path = "kumu-tristandowning-samra-1_modified_2.json"
