@@ -28,8 +28,13 @@ def update_element(map_data: dict, label: str, field: str, value):
 
 
 def save_map(map_data, path):
-    with open(path, "w") as outfile:
-        json.dump(map_data, outfile)
+    json_object = json.dumps(map_data, indent=4)
+
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(map_data, f, ensure_ascii=False, indent=4)
+
+    # with open(path, "w") as outfile:
+    #     json.dump(map_data, outfile)
 
 
 if __name__ == "__main__":
