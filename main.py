@@ -43,5 +43,6 @@ if __name__ == "__main__":
     map_data = update_element(map_data, "Element-1", "kumu-created-field-1", "value-1-2")
     map_data = update_element(map_data, "Element-2", "kumu-created-field-1", "value-2")
     map_data = update_element(map_data, "Element-2", "label", "Element-2-2")
+    map_data["maps"][0]["src"] = "https://raw.githubusercontent.com/t-downing/SAMRA_1/master/kumu-tristandowning-samra-1_modified_2.json",
     save_path = "kumu-tristandowning-samra-1_modified_2.json"
     save_map(map_data, save_path)

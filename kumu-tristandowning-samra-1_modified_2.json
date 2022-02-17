@@ -176,7 +176,10 @@
           "connection": "conn-tMFHvPQj"
         }
       ],
-      "loops": []
+      "loops": [],
+      "src": [
+        "https://raw.githubusercontent.com/t-downing/SAMRA_1/master/kumu-tristandowning-samra-1_modified_2.json"
+      ]
     }
   ],
   "perspectives": [
