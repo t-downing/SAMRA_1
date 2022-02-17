@@ -1,0 +1,188 @@
+{
+    "version": 1,
+    "name": "SAMRA-1",
+    "description": "",
+    "proxyImages": true,
+    "defaultMap": "map-tqPZWyH1",
+    "defaultPerspective": null,
+    "attributeRelevance": {},
+    "attributes": [
+        {
+            "_id": "attr-dUMCbF0E",
+            "name": "Connection Type",
+            "format": "string",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "list",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": false
+        },
+        {
+            "_id": "attr-n48EpjJP",
+            "name": "Description",
+            "format": "text",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "none",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": false
+        },
+        {
+            "_id": "attr-OLvz2cu6",
+            "name": "Element Type",
+            "format": "string",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "list",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": true
+        },
+        {
+            "_id": "attr-M53ZeXed",
+            "name": "Label",
+            "format": "string",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "autocomplete",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": false
+        },
+        {
+            "_id": "attr-vIv0HOmc",
+            "name": "Loop Type",
+            "format": "string",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "list",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": false
+        },
+        {
+            "_id": "attr-ueKzJSpb",
+            "name": "Tags",
+            "format": "string",
+            "private": false,
+            "limit": "none",
+            "category": "General",
+            "prompt": "autocomplete",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": true
+        },
+        {
+            "_id": "attr-nBia4iGR",
+            "name": "kumu-created-field-1",
+            "format": "string",
+            "private": false,
+            "limit": 1,
+            "category": "General",
+            "prompt": "autocomplete",
+            "locked": false,
+            "values": [],
+            "sort": false,
+            "cluster": true
+        }
+    ],
+    "elements": [
+        {
+            "_id": "elem-OzMX2owy",
+            "attributes": {
+                "label": "Element-1",
+                "kumu-created-field-1": "value-1"
+            }
+        },
+        {
+            "_id": "elem-VFQnsi9H",
+            "attributes": {
+                "label": "Element-2"
+            }
+        },
+        {
+            "_id": "elem-ouTtiZri",
+            "attributes": {
+                "label": "Element-3"
+            }
+        }
+    ],
+    "connections": [
+        {
+            "_id": "conn-tMFHvPQj",
+            "direction": "directed",
+            "delayed": false,
+            "reversed": false,
+            "attributes": {},
+            "from": "elem-OzMX2owy",
+            "to": "elem-VFQnsi9H"
+        }
+    ],
+    "loops": [],
+    "maps": [
+        {
+            "_id": "map-tqPZWyH1",
+            "name": "Untitled map",
+            "description": "",
+            "scale": 1,
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "defaultPerspective": "pers-uPvY8QZU",
+            "defaultElementBehavior": "floating",
+            "defaultConnectionDirection": "undirected",
+            "elements": [
+                {
+                    "_id": "node-NKVkmLie",
+                    "position": {
+                        "x": 110.40499805262077,
+                        "y": 10.287547367281904
+                    },
+                    "pinned": true,
+                    "style": {},
+                    "element": "elem-VFQnsi9H"
+                },
+                {
+                    "_id": "node-VqGLdwCF",
+                    "position": {
+                        "x": -49.79443693081969,
+                        "y": -35.641793039743895
+                    },
+                    "pinned": true,
+                    "style": {},
+                    "element": "elem-OzMX2owy"
+                }
+            ],
+            "connections": [
+                {
+                    "_id": "edge-mfNxO8TK",
+                    "curvature": 0.3044779558923137,
+                    "style": {},
+                    "connection": "conn-tMFHvPQj"
+                }
+            ],
+            "loops": []
+        }
+    ],
+    "perspectives": [
+        {
+            "_id": "pers-uPvY8QZU",
+            "name": "Untitled view",
+            "style": "@settings {\n  template: custom;\n}\n\n"
+        }
+    ]
+}
