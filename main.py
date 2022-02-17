@@ -31,7 +31,7 @@ def save_map(map_data, path):
     json_object = json.dumps(map_data, indent=4)
 
     with open(path, 'w', encoding='utf-8') as f:
-        json.dump(map_data, f, ensure_ascii=False, indent=4)
+        json.dump(map_data, f, ensure_ascii=False, indent=2)
 
     # with open(path, "w") as outfile:
     #     json.dump(map_data, outfile)
