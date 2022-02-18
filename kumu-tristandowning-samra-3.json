@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "name": "SAMRA-3",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-tqPZWyH1",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-Lko1jpqB",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-yYbypR0G",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-olXh11JE",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-meIAWmVc",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-IvYsANoR",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-CewN81gb",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "https://raw.githubusercontent.com/t-downing/SAMRA_1/master/kumu-tristandowning-samra-1_modified_2.json",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-nBia4iGR",
+      "name": "kumu-created-field-1",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-OzMX2owy",
+      "attributes": {
+        "label": "Element-1",
+        "kumu-created-field-1": "value-1-2"
+      }
+    },
+    {
+      "_id": "elem-VFQnsi9H",
+      "attributes": {
+        "label": "Element-2-2",
+        "kumu-created-field-1": "value-2"
+      }
+    },
+    {
+      "_id": "elem-ouTtiZri",
+      "attributes": {
+        "label": "Element-3"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-tMFHvPQj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-OzMX2owy",
+      "to": "elem-VFQnsi9H"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-3T2rexnD",
+      "name": "Untitled map",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://raw.githubusercontent.com/t-downing/SAMRA_1/master/kumu-tristandowning-samra-1_modified_2.json",
+      "defaultPerspective": "pers-LBMeaxo0",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected"
+    },
+    {
+      "_id": "map-tqPZWyH1",
+      "name": "Untitled map",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "src": [
+        "https://raw.githubusercontent.com/t-downing/SAMRA_1/master/kumu-tristandowning-samra-1_modified_2.json"
+      ],
+      "defaultPerspective": "pers-uPvY8QZU",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected"
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-LBMeaxo0",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: custom;\n}\n\n"
+    },
+    {
+      "_id": "pers-uPvY8QZU",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: custom;\n}\n\n"
+    }
+  ]
+}
